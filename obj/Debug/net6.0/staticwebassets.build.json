@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "JeTItd+Wl2g0GHlQufAJHqS8y4j4+nfe/Jo0nMv/eRY=",
+  "Source": "WebHookApi",
+  "BasePath": "_content/WebHookApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
