@@ -14,9 +14,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI(options =>
     {
-        // Ensure the URL below matches your environment
         options.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
-        options.RoutePrefix = "";  // Set to empty so Swagger UI is at the root path. (Ensure your URL paths are properly persistent with no trailing slashes.)
+        options.RoutePrefix = "swagger";  // Serve Swagger at //localhost:7150/swagger
     });
 }
 

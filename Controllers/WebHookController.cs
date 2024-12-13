@@ -1,8 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using System.Collections.Concurrent;
 using WebHookApi.Models;
 
-// For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+
 
 namespace WebHookApi.Controllers
 {
@@ -11,7 +10,7 @@ namespace WebHookApi.Controllers
     public class WebHookController : ControllerBase
     {
 
-        // GET: api/Webhook/test
+       
         [HttpGet("test")]
         public ActionResult TestEndpoint()
         {
